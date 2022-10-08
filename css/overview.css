@@ -1,0 +1,103 @@
+body {
+/*    font-family: "Lucida Grande", sans-serif;*/
+    color: #777
+}
+
+.number {
+    padding: 0.2em 0.5em;
+    border-radius: 1em !important;
+	display: inline;	
+    cursor: pointer;
+	margin-right: 0.2em;
+    font-size: 1.5em !important;
+    
+    box-shadow: initial !important;
+}
+
+.text {
+	 display: inline-block; 
+    cursor: pointer;
+    padding: 0.5rem;
+    box-shadow: inherit !important;
+    animation: none !important;
+    margin-bottom: 0.6rem;
+    border: 1px solid grey;
+    border-radius: 4px;
+}
+
+.group-header {
+    background-color:rgba(222,222,222, 0.9);
+    color: black;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    opacity: 0.9;
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #444;
+    /* border-bottom: 1px solid grey;  */
+}
+
+.infobar {
+    margin-top: 0;
+    margin-left: 0.6rem;
+    /* margin-left: 3rem; */
+}
+
+.date {
+    color: #bbb;
+}
+/*  
+.highlights {
+    counter-reset: my-counter;
+}
+
+.highlights li ol li:before {
+	counter-increment: my-counter;
+	content: counter(my-counter);
+}  */
+
+.number-of-highlights {
+    text-align: start;
+}
+
+/* .number-of-highlights::before {
+    content: "- ";
+} */
+
+/* hide automatic url after anchor */
+@media print {
+  a[href]:after {
+    content: none !important;
+  }
+}
+
+footer {
+  padding-top: 9px;
+  margin: 40px 0 20px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+
+@media print {
+    body {
+        -webkit-print-color-adjust: exact !important;
+    }
+}
+
+@media (prefers-color-scheme: dark) { 
+	body { 
+		background: #222; 
+	}
+
+    .navbar-default {
+        background-color: #111111;
+        border-color: #070707;
+    }
+
+	.group-header {
+		background-color:rgba(16,16,16, 0.9);
+		color: white;
+	}	
+}

@@ -1,0 +1,338 @@
+{
+   "about": {
+      "message": "About"
+   },
+   "advanced": {
+      "message": "Backups"
+   },
+   "advanced_database_export_button_text": {
+      "message": "Export File…"
+   },
+   "advanced_database_export_description": {
+      "message": "Saves a file containing every highlight appearance and style currently in the database. If you haven't enabled the 'Ask where to save each file before downloading' option in Chrome, the file will probably be saved in your Downloads folder."
+   },
+   "advanced_database_export_file_name": {
+      "message": "Super Simple Highlighter Backup"
+   },
+   "advanced_database_export_title": {
+      "message": "Backup"
+   },
+   "advanced_database_heading": {
+      "message": "Experimental - use at your own risk (or at least test it beforehand)"
+   },
+   "advanced_database_import_button_text": {
+      "message": "Import File…"
+   },
+   "advanced_database_import_description": {
+      "message": "Replace all current highlights and styles with those previously exported into a file. NB: *ALL* existing highlights on *ALL* pages will be replaced, along with *ALL* modified highlight styles. This can't be undone."
+   },
+   "advanced_database_import_title": {
+      "message": "Restore"
+   },
+   "advanced_header": {
+      "message": "Caution! Functions in this section should be considered experimental, and subject to change or removal in the future. Don't say you weren't warned..."
+   },
+   "alert_create_highlight_in_editable": {
+      "message": "Unable to create a highlight within an editable text box."
+   },
+   "alert_create_highlight_in_subframe": {
+      "message": "Creating a highlight within a subframe of a page is currently unsupported."
+   },
+   "bookmarks": {
+      "message": "Pages"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "changelog": {
+      "message": "changelog"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "color_title_cyan": {
+      "message": "Cyan"
+   },
+   "color_title_blue": {
+      "message": "Blue"
+   },
+   "color_title_green": {
+      "message": "Green"
+   },
+   "color_title_grey": {
+      "message": "Gray"
+   },
+   "color_title_orange": {
+      "message": "Orange"
+   },
+   "color_title_purple": {
+      "message": "Purple"
+   },
+   "color_title_red": {
+      "message": "Red"
+   },
+   "color_title_yellow": {
+      "message": "Yellow"
+   },
+   "confirm_remove_all_highlights": {
+      "message": "Are you sure you wish to remove every highlight on this page?"
+   },
+   "confirm_remove_all_pages": {
+      "message": "This operation can't be undone. Are you sure you wish to remove every highlight on every page?"
+   },
+   "confirm_remove_style": {
+      "message": "This operation can't be undone. Are you sure you wish to remove this style?"
+   },
+   "confirm_reset_default_styles": {
+      "message": "This operation can't be undone. Are you sure you wish to restore the default styles?"
+   },
+   "copy_highlight_text": {
+      "message": "Copy"
+   },
+   "copy_overview": {
+      "message": "Copy as Markdown"
+   },
+   "copyright_year": {
+      "message": "2010-19"
+   },
+   "create": {
+      "message": "Create"
+   },
+   "create_new_style": {
+      "message": "Create New Style"
+   },
+   "delete_highlight": {
+      "message": "Remove"
+   },
+   "edit_style": {
+      "message": "Edit Style"
+   },
+   "extension_author": {
+      "message": "Dexterous Logic"
+   },
+   "extension_author_twitter": {
+      "message": "dexterouslogic"
+   },
+   "extension_author_url": {
+      "message": "https://www.dexterouslogic.com"
+   },
+   "extension_description": {
+      "message": "Adds highlights to text on web pages, and tries to restore them on subsequent visits."
+   },
+   "extension_name": {
+      "message": "Super Simple Highlighter"
+   },
+   "extension_webstore_url": {
+      "message": "https://chrome.google.com/webstore/detail/hhlhjgianpocpoppaiihmlpgcoehlhio"
+   },
+   "faq_title": {
+      "message": "Frequently Asked Questions"
+   },
+   "group_by_first_date": {
+      "message": "By Initial Highlight Date"
+   },
+   "group_by_last_date": {
+      "message": "By Latest Highlight Date"
+   },
+   "group_by_title": {
+      "message": "By Title"
+   },
+   "highlight_background_colour": {
+      "message": "Background Color"
+   },
+   "highlight_box_shadow": {
+      "message": "Blur highlight edges"
+   },
+   "highlight_help_keyboard_shortcut": {
+      "message": "A keyboard shortcut can be assigned to any of the first 10 styles. Use the 'Keyboard Shortcuts' facility, located in Chrome's 'Extensions' page (also accessible via the 'More Tools' section of the main menu)."
+   },
+   "highlight_opacity": {
+      "message": "Opacity"
+   },
+   "highlight_text_colour": {
+      "message": "Text Color"
+   },
+   "highlight_text_colour_inherit": {
+      "message": "Keep original text color"
+   },
+   "highlight_title": {
+      "message": "Title"
+   },
+   "highlight_title_undefined": {
+      "message": "Untitled"
+   },
+   "highlight_unselect": {
+      "message": "Unselect text after highlighting"
+   },
+   "highlights_page_title_prefix": {
+      "message": "Highlights"
+   },
+   "libraries": {
+      "message": "This extension is composed of the following libraries"
+   },
+   "licenses": {
+      "message": "Licenses"
+   },
+   "more": {
+      "message": "more"
+   },
+   "ok_got_it": {
+      "message": "OK, got it"
+   },
+   "open_overview_in_new_tab": {
+      "message": "Open"
+   },
+   "options_page_title_prefix": {
+      "message": "Options"
+   },
+   "options_tab_page_header_sites": {
+      "message": "Choose a style to change its title and appearance"
+   },
+   "overview_footer": {
+      "message": "Created with [$EXTENSION_NAME$]($EXTENSION_URL$). (C)$COPYRIGHT_YEAR$ [$EXTENSION_AUTHOR$]($EXTENSION_AUTHOR_URL$)",
+      "placeholders": {
+         "copyright_year": {
+            "content": "$3"
+         },
+         "extension_author": {
+            "content": "$4"
+         },
+         "extension_author_url": {
+            "content": "$5"
+         },
+         "extension_name": {
+            "content": "$1"
+         },
+         "extension_url": {
+            "content": "$2"
+         }
+      }
+   },
+   "overview_page_title_prefix": {
+      "message": "Summary"
+   },
+   "page_action_default_title": {
+      "message": "Show highlights"
+   },
+   "page_action_title_not_in_dom": {
+      "message": "Some highlights couldn't be restored onto this page"
+   },
+   "pages_empty": {
+      "message": "Nothing to see here, move along"
+   },
+   "placeholder_filter": {
+      "message": "Search"
+   },
+   "placeholder_filter_highlights": {
+      "message": "Search Highlights"
+   },
+   "placeholder_filter_titles": {
+      "message": "Search Titles"
+   },
+   "plural_multi_highlights": {
+      "message": "$count$ Highlights",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "plural_single_highlight": {
+      "message": "$count$ Highlight",
+      "placeholders": {
+         "count": {
+            "content": "$1"
+         }
+      }
+   },
+   "redefine_highlight": {
+      "message": "Style"
+   },
+   "remove_all_highlights": {
+      "message": "Remove All Highlights"
+   },
+   "remove_highlight": {
+      "message": "Remove Highlight"
+   },
+   "required_highlight_title": {
+      "message": "Every style requires a title"
+   },
+   "reset_default_styles": {
+      "message": "Reset to Default Styles"
+   },
+   "restore_all_warnings": {
+      "message": "Restore all warnings"
+   },
+   "save_overview": {
+      "message": "Save as Markdown…"
+   },
+   "save_overview_file_name": {
+      "message": "summary.md"
+   },
+   "select_highlight_text": {
+      "message": "Select"
+   },
+   "show_page_highlight_text": {
+      "message": "Show Highlights"
+   },
+   "sort_by_location": {
+      "message": "By Position"
+   },
+   "sort_by_style": {
+      "message": "By Style"
+   },
+   "sort_by_time": {
+      "message": "By Date"
+   },
+   "speak_highlight_text": {
+      "message": "Say"
+   },
+   "styles": {
+      "message": "Styles"
+   },
+   "text_remove_all_pages": {
+      "message": "Remove All Bookmarks"
+   },
+   "title": {
+      "message": "Title"
+   },
+   "title_filter_style": {
+      "message": "Filter by Style"
+   },
+   "title_sort_direction": {
+      "message": "Sort Direction"
+   },
+   "tooltip_copy_highlight": {
+      "message": "Copy the highlighted text to the Clipboard"
+   },
+   "tooltip_select_highlight": {
+      "message": "Selects the highlighted text"
+   },
+   "tooltip_speak_highlight": {
+      "message": "Speak the highlighted text"
+   },
+   "undo": {
+      "message": "Undo Last Highlight"
+   },
+   "untitled_page_group_tooltip": {
+      "message": "Pages for which the title has not yet been obtained, or is not specified."
+   },
+   "untitled_page_title": {
+      "message": "Untitled"
+   },
+   "update": {
+      "message": "Update"
+   },
+   "url": {
+      "message": "URL"
+   },
+   "visible_style": {
+      "message": "Style"
+   },
+   "visible_stylename_all": {
+      "message": "Reset"
+   },
+   "warning_file_access_required": {
+      "message": "NB: This is an offline page (stored locally in a file). The highlights it contains can only be shown if 'Allow access to file URLs' is enabled for this extension. You may choose to do this via the 'Extensions' tool page."
+   }
+}
