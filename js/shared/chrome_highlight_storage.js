@@ -105,14 +105,14 @@ class ChromeHighlightStorage extends ChromeStorage {
     get defaultHighlightDefinitions() {
         if (!Array.isArray(this._defaultHighlightDefintions)) {
             this._defaultHighlightDefintions = [
-                ['color_title_purple', 'default-purple-c472dcdb-f2b8-41ab-bb1e-2fb293df172a', '#AE81FF', '#000000'],
-                ['color_title_blue', 'default-cyan-b88e8827-e652-4d79-a9d9-f6c8b8ec9e2b', '#65D9EF', '#000000'],
-                ['color_title_yellow', 'default-yellow-aaddcf5c-0e41-4f83-8a64-58c91f7c6250', '#ffffAA', 'inherit'],
-                ['color_title_cyan', 'default-cyan-f88e8827-e652-4d79-a9d9-f6c8b8ec9e2b', '#2DE2A6', '#000000'],
-                ['color_title_green', 'default-green-c4d41e0a-e40f-4c3f-91ad-2d66481614c2', '#A0DA2D', '#000000'],
-                ['color_title_orange', 'default-orange-da01945e-1964-4d27-8a6c-3331e1fe7f14', '#FA961E', '#000000'],
-                ['color_title_red', 'default-red-aa94e3d5-ab2f-4205-b74e-18ce31c7c0ce', '#F92671', '#000000'],
-                ['color_title_grey', 'default-grey-da7cb902-89c6-46fe-b0e7-d3b35aaf237a', '#80807B', 'inherit'],
+                ['color_title_purple', 'default-purple-c472dcdb-f2b8-41ab-bb1e-2fb293df172a', '#BE9AFF', '#000000'],
+                ['color_title_blue', 'default-cyan-b88e8827-e652-4d79-a9d9-f6c8b8ec9e2b', '#018BFF', '#000000'],
+                ['color_title_yellow', 'default-yellow-aaddcf5c-0e41-4f83-8a64-58c91f7c6250', '#FEFE00', 'inherit'],
+                ['color_title_cyan', 'default-cyan-f88e8827-e652-4d79-a9d9-f6c8b8ec9e2b', '#57E8B8', '#000000'],
+                ['color_title_green', 'default-green-c4d41e0a-e40f-4c3f-91ad-2d66481614c2', '#83D98F', '#000000'],
+                ['color_title_orange', 'default-orange-da01945e-1964-4d27-8a6c-3331e1fe7f14', '#FBAB4B', '#000000'],
+                ['color_title_red', 'default-red-aa94e3d5-ab2f-4205-b74e-18ce31c7c0ce', '#FA518D', '#000000'],
+                ['color_title_grey', 'default-grey-da7cb902-89c6-46fe-b0e7-d3b35aaf237a', '#999995', 'inherit'],
             ].map(([titleMessageId, className, backgroundColor, color]) => {
                 return HighlightDefinitionFactory.createObject(
                     chrome.i18n.getMessage(titleMessageId), {
