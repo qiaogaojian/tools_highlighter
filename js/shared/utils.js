@@ -284,9 +284,11 @@ class NodeUtils {
 			})()
 
 			if (node.nodeType === Node.ELEMENT_NODE && node.id.length > 0) {
+				// 适配类似于 "s1.pl.1.1" 这种包含与类选择器的语法冲突的点号（.）的元素ID
+				let id = node.id.replace(/\./g, '\\.')
 				// if the node is an element with a unique id within the *document*, it can become the root of the path,
 				// and since we're going from node to document root, we have all we need.
-				if (node.ownerDocument.querySelectorAll(`#${node.id}`).length === 1) {
+				if (node.ownerDocument.querySelectorAll(`#${id}`).length === 1) {
 					// because the first item of the path array is prefixed with '/', this will become 
 					// a double slash (select all elements). But as there's only one result, we can use [1]
 					// eg: //span[@id='something']/div[3]/text()
